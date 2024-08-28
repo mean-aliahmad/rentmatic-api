@@ -1,12 +1,9 @@
 {
-  "name": "waribbysoft-api",
+  "name": "rentmatic-api",
   "version": "1.0.0",
-  "description": "WaribbySOFT Backend API setup for New Project Rentmem",
+  "description": "Rentmatic Backend API setup.",
   "main": "src/app.js",
   "type": "module",
-  "_moduleAliases": {
-    "@routes": "src/routes"
-  },
   "scripts": {
     "start": "nodemon src/app.js",
     "build": "babel src --out-dir public",
@@ -16,12 +13,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mean-aliahmad/waribbysoft-api.git"
+    "url": "git+https://github.com/mean-aliahmad/rentmatic-api.git"
   },
   "bugs": {
-    "url": "https://github.com/mean-aliahmad/waribbysoft-api/issues"
+    "url": "https://github.com/mean-aliahmad/rentmatic-api/issues"
   },
-  "homepage": "https://github.com/mean-aliahmad/waribbysoft-api#readme",
+  "homepage": "https://github.com/mean-aliahmad/rentmatic-api#readme",
   "dependencies": {
     "@eslint/js": "^9.9.1",
     "@vercel/blob": "^0.23.4",
