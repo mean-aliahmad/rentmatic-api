@@ -8,7 +8,7 @@ dotenv.config();
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.DATABASE_URI, {
+    await mongoose.connect(process.env.MONGO_URI, {
       connectTimeoutMS: 30000,
       socketTimeoutMS: 30000,
       tls: false, // Set to false for local MongoDB unless it's configured for TLS/SSL
